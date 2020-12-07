@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>560</width>
-    <height>396</height>
+    <width>556</width>
+    <height>392</height>
    </rect>
   </property>
   <property name="maximumSize">
    <size>
-    <width>560</width>
-    <height>396</height>
+    <width>556</width>
+    <height>392</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -23,19 +23,26 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: #fff;</string>
+   <string notr="true">background-color: #8798A6;</string>
   </property>
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>180</x>
      <y>20</y>
-     <width>381</width>
-     <height>371</height>
+     <width>371</width>
+     <height>361</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">QTab {
+	color: #fff;
+	background-color: #2B333A;
+	border-radius: 8px;
+}
+QTab:pressed {
+	background-color: #33424D ;
+}</string>
    </property>
    <property name="currentIndex">
     <number>0</number>
@@ -66,7 +73,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: #000;</string>
+    <string notr="true">background-color: #2B333A;</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
